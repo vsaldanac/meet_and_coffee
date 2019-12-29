@@ -1,0 +1,185 @@
+body{
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+
+h2{
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 2em;
+}
+
+h4{
+  font-size: 1.75em;
+}
+
+h5{
+  font-size: 1.25em;
+}
+
+.subtitulo, h4, h5{
+  font-weight: 400;
+}
+
+h2{
+  font-weight: 700;
+}
+
+#ubicacion h2{
+  margin: 1em auto;
+}
+
+.sweet-brown h3, .sweet-brown h5{
+  margin-bottom: 0.5em;
+}
+
+#eventos h2{
+  margin-bottom: 0.5em;
+}
+
+#eventos h3{
+  margin: 1em auto;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+nav{
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  width: 100vw;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.oscuro{
+  background: #000f08;
+  color: white;
+}
+
+.oscuro a{
+  color: white;
+  text-decoration: none;
+}
+
+.sweet-brown{
+  text-align: left;
+  background: #a4452c;
+  color: white;
+  padding: 50px;
+  white-space: nowrap;
+}
+
+.hero-section{
+  text-align: right;
+  background-image: url('../img/bg-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+
+}
+
+.icono{
+  width: 2rem;
+}
+
+.icono svg{
+  fill: white;
+}
+
+section, footer{
+  margin-top: 75px;
+}
+
+footer{
+  padding: 50px;
+}
+
+footer i{
+  margin: 0 0.25em 0.5em 0.25em;
+  vertical-align: middle;
+}
+
+.charla-texto{
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+  margin-left: 5%;
+  white-space: nowrap;
+}
+
+.evento{
+  display: inline-block;
+  width: 30%;
+}
+
+.centrado{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.charla-speaker{
+  width: 25%;
+  vertical-align: middle;
+}
+
+.evento-imagen{
+  width: 75%;
+}
+
+.evento01-imagen{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.evento01 {
+  padding-left: 21%;
+  padding-right: 22%;
+  padding-top: 100px;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.evento01 h1{
+  font: Bold 45px/61px Open Sans;
+  letter-spacing: 0;
+  color: #000F08;
+  opacity: 1;
+}
+
+.evento01 h2{
+  font: Bold 40px/55px Open Sans;
+  letter-spacing: 0;
+}
+
+.evento01 p{
+  font: Regular 25px/34px Open Sans;
+  letter-spacing: 0.5px;
+}
